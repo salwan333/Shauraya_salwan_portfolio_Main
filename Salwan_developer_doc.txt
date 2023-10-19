@@ -1,0 +1,23 @@
+﻿1. The Portfolio website is a meticulously planned 2-page web platform, comprising the following sections:
+
+
+* Homepage
+* About me
+* My work
+* Contact Page
+
+
+2. The design philosophy revolves around a colour scheme of light Purple, grey and black, strategically chosen to emphasise the content and the work showcased, promoting a minimalist and elegant aesthetic.
+
+
+3. Homepage: The portfolio is introduced on this first landing page. There's a 'About Me' section with details about my experience and background. It also has a section with testimonials, team projects, and my most recent work (hyperlink related). Here, I want to highlight my skill set and my contributions to the fields of motion, graphic, and web design.
+
+
+4. GreenSock animations will be included to improve user experience. The portfolio website will look more aesthetically appealing with the addition of dynamic and engaging scroll effects and hover animations.
+
+
+5. Portfolio sites: A flexible JavaScript framework powers these sites. The way the project descriptions are dynamically displayed on these pages is one of their unique features.
+6. PHP, SASS, HTML, and JavaScript are used in combination to create the "About Us," "Home," and "Projects" pages. These pages are enhanced with a variety of animation effects, which improve the website's overall user experience and engagement.
+
+
+7. The purpose of my portfolio website is to showcase my abilities and work in an eye-catching, polished, and visually appealing way. It's the pinnacle of functionality and design, fusing state-of-the-art design with sophisticated aesthetics to produce an engaging and educational online presence.
