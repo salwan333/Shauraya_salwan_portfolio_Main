@@ -1,0 +1,367 @@
+:root {
+  --primary-color: #9b4abe;
+  --background: #d2c2ff;
+  --accent: red;
+}
+
+body {
+  margin: 0px;
+  text-align: center;
+  background-color: var(--background);
+}
+
+header {
+  background-color: var(--primary-color);
+  display: grid;
+  grid-template-columns: auto auto;
+  height: 160px;
+}
+
+div {
+  font-size: xx-large;
+}
+
+.logo {
+  width: 30%;
+  margin: 20px 15%;
+  border-radius: 10px;
+  background-color: var(--background);
+  padding: 40px 0px;
+}
+
+.logo:hover {
+  width: 35%;
+  transition: 0.3s;
+  background-color: white;
+}
+
+#navBar {
+  width: 65%;
+  margin: 20px 15%;
+  border-radius: 10px;
+  background-color: var(--background);
+  font-size: xx-large;
+  padding: 40px 0px;
+}
+
+#navBar:hover {
+  width: 70%;
+  transition: 0.3s;
+  background-color: white;
+}
+
+#homeSection div {
+  width: 80%;
+  background-color: var(--primary-color);
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding: 220px 0px;
+}
+
+#aboutMe {
+  margin-top: 40px;
+}
+
+section h1 {
+  width: 400px;
+  background-color: var(--primary-color);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  font-size: xx-large;
+}
+
+section h1:hover {
+  background-color: var(--accent);
+  font-size: larger;
+  transition: 0.5s;
+  color: white;
+  font-size: 40px;
+}
+
+#aboutMe .aboutimg {
+  width: 600px;
+  background-color: var(--primary-color);
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding: 220px 0px;
+}
+
+#aboutMe .aboutimg:hover {
+  width: 650px;
+  transition: 1s;
+}
+
+#aboutMe p {
+  width: 80%;
+  font-size: larger;
+  background-color: var(--primary-color);
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding: 60px 0px;
+}
+
+hr {
+  width: 80%;
+  margin: 50px;
+}
+
+#portfolio h2 {
+  font-size: xxx-large;
+  font-weight: lighter;
+}
+
+#portfolioWorks {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 50px;
+}
+
+.myWorks {
+  padding: 20px 0px;
+  margin: 0px;
+}
+
+.myWorks div {
+  width: 500px;
+  padding: 180px 0px;
+  border-radius: 20px;
+  background-color: var(--primary-color);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.myWorks div:hover {
+  width: 550px;
+  transition: 0.3s;
+}
+
+.myWorks h3 {
+  font-size: x-large;
+}
+
+.myWorks h3:hover {
+  color: var(--accent);
+}
+
+#skills {
+  margin: 100px;
+}
+
+.skill div {
+  width: 700px;
+  margin-top: 50px;
+  padding: 180px 0px;
+  border-radius: 20px;
+  background-color: var(--primary-color);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#skills h3 {
+  font-size: x-large;
+}
+
+#skills h3:hover {
+  color: var(--accent);
+}
+
+.contactUsForm {
+  background-color: var(--primary-color);
+  padding: 100px;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+
+.contactUsForm form {
+  background-color: white;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 100px 100px;
+  font-size: x-large;
+  border-radius: 20px;
+}
+
+.contactUsForm form:hover {
+  border: 5px solid var(--accent);
+  transition: 0.4s;
+}
+
+footer {
+  padding: 100px;
+}
+
+footer h3 {
+  font-size: x-large;
+  margin-bottom: 80px;
+}
+
+footer h3:hover {
+  color: var(--accent);
+}
+
+.socialMedia {
+  padding: 40px 0px;
+  border-radius: 20px;
+  background-color: var(--primary-color);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 1100px) {
+  .logo {
+    width: 58%;
+    margin: 20px 5%;
+  }
+  .logo:hover {
+    width: 60%;
+  }
+  #navBar {
+    width: 55%;
+    margin: 20px 5%;
+    border-radius: 10px;
+    background-color: var(--background);
+    font-size: xx-large;
+    padding: 40px;
+  }
+  #navBar:hover {
+    width: 60%;
+    transition: 0.3s;
+    background-color: white;
+  }
+  #portfolio h2 {
+    font-size: xx-large;
+  }
+  .myWorks {
+    padding: 10px 20px;
+  }
+  .myWorks div {
+    width: 100%;
+  }
+  .myWorks div:hover {
+    width: 110%;
+  }
+  #skills {
+    margin: 70px;
+  }
+  .skill div {
+    width: 600px;
+  }
+  .contactUsForm {
+    padding: 40px;
+    width: 600px;
+  }
+  .contactUsForm form {
+    width: 400px;
+    padding: 50px;
+    font-size: x-large;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #aboutMe .aboutimg {
+    width: 500px;
+  }
+  #aboutMe .aboutimg:hover {
+    width: 550px;
+    transition: 1s;
+  }
+  #portfolioWorks {
+    grid-gap: 20px;
+  }
+  .myWorks {
+    padding: 10px 10px;
+  }
+  .myWorks h3 {
+    font-size: larger;
+  }
+  .myWorks div:hover {
+    width: 105%;
+  }
+  #skills {
+    margin: 100px 50px;
+  }
+  .skill div {
+    width: 500px;
+  }
+  .contactUsForm {
+    padding: 20px;
+    width: 500px;
+  }
+  .contactUsForm form {
+    width: 400px;
+    height: 200px;
+  }
+  footer {
+    padding: 50px 10px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .logo {
+    width: 70%;
+    margin: 20px 15%;
+    border-radius: 10px;
+    background-color: var(--background);
+    padding: 40px 0px;
+  }
+  .logo:hover {
+    width: 70%;
+  }
+  #navBar {
+    width: 70%;
+    margin: 20px 15%;
+    border-radius: 10px;
+    background-color: var(--background);
+    font-size: xx-large;
+    padding: 40px 0px;
+  }
+  #navBar:hover {
+    width: 70%;
+    background-color: white;
+  }
+  #aboutMe .aboutimg {
+    width: 350px;
+  }
+  #aboutMe .aboutimg:hover {
+    width: 370px;
+    transition: 1s;
+  }
+  #portfolioWorks {
+    grid-template-columns: auto;
+  }
+  .myWorks div {
+    width: 350px;
+    height: 280px;
+    border-radius: 20px;
+  }
+  .myWorks div:hover {
+    width: 400px;
+  }
+  #skills {
+    margin: 100px 0px;
+  }
+  .skill div {
+    width: 350px;
+  }
+  section h1 {
+    width: 300px;
+    padding: 15px 20px;
+  }
+  .contactUsForm {
+    width: 300px;
+  }
+  .contactUsForm form {
+    width: 200px;
+  }
+  .socialMedia {
+    grid-template-columns: auto;
+  }
+}/*# sourceMappingURL=main.css.map */
